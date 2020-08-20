@@ -1,2 +1,2 @@
 # sta.radio
-Custom URL shortener
+Custom URL shortener, currently deployed at https://sta-radio.herokuapp.com/.
