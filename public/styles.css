@@ -92,7 +92,7 @@ form {
 }
 
 .created {
-  background: #3CB371;
+  background: #006802;
   padding: 0.5rem 1rem;
   color: #ffffff;
   margin-bottom: 1rem;
@@ -105,7 +105,7 @@ form {
 }
 
 .error {
-  background: #A63446;
+  background: #A61515;
   padding: 0.5rem 1rem;
   color: #ffffff;
   margin-bottom: 1rem;
