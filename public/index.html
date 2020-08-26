@@ -16,7 +16,7 @@
         </header>
         <div id="app" class="middle main">
             <form @submit.prevent="createUrl()" class="form" autocomplete="off">
-                <div v-if="error" class="error">Must be a valid URL</div>
+                <div v-if="error" class="error" role="alert">The URL to shorten must be a valid URL.</div>
 
                 <input v-model="url" class="input" name="url" id="url" placeholder="Enter a URL to shorten" aria-label="URL to shorten" aria-required="true">
                 <input v-model="slug" class="input" name="slug" id="slug" placeholder="Enter a custom slug" aria-label="Custom slug" aria-describedby="slug-explained">
@@ -28,7 +28,7 @@
                 <button type="submit" class="create">CREATE</button>
             </form>
             <div v-if="created">
-                <p class="created">Your short url is: <br /><a :href="created" target="_blank">{{created}}</a></p>
+                <p class="created" role="alert">Your short url is: <br /><a :href="created" target="_blank">{{created}}</a></p>
             </div>
         </div>
         <footer>
