@@ -1,5 +1,5 @@
 # sta.radio
-Custom URL shortener, currently deployed at https://sta-radio.
+Custom URL shortener, currently deployed at https://sta.radio.
 
 To use setup locally:
 - Extract and move items to a directory named `server`
